@@ -22,3 +22,8 @@ FROM Customers c
 INNER JOIN Orders o ON c.CustomerID = o.CustomerID
 GROUP BY c.CustomerName, c.Country
 ORDER BY Total_Spent DESC;
+
+
+📊 Business Insight
+
+The query successfully sorted our clients. It showed that Omer Abdalla is the top customer with 650.00 in total spending across 2 orders. This data allows companies to target their best customers with special loyalty rewards.
